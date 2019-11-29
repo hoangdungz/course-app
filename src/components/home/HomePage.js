@@ -3,11 +3,7 @@ import { Link } from 'react-router-dom';
 
 const HomePage = () => (
     <div className="jumbotron">
-        <h1>Home Page</h1>
-        <p>Courses web apps.</p>
-        <Link to="about" className="btn btn-primary btn-lg">
-            Learn more
-        </Link>
+        <h1>Course app</h1>
     </div>
 );
 
